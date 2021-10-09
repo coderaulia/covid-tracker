@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Footer from "../parts/Footer";
 import Header from "../parts/Header";
 import Section from "../parts/Section";
 
@@ -10,6 +11,7 @@ export default class About extends Component {
 				<Section
 					title='Tentang Kami'
 					data='Ini adalah aplikasi sederhana yang sedang dalam proses development, anda dapat mengunjunginya melalui link Github kami.'></Section>
+				<Footer></Footer>
 			</>
 		);
 	}
