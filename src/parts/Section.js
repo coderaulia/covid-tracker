@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 
 export default function Section({ title, data }) {
 	return (
-		<section>
+		<section className='pb-48'>
 			<Fade bottom>
 				<div className='flex container mx-auto mt-20 items-center justify-center'>
 					<div className='space-y-4'>
