@@ -8,9 +8,14 @@ export default function Header() {
 		<Fade>
 			<section className='h-full w-full border-box transition-all duration-500 linear lg:px-24 md:px-20 px-8 py-6 bg-gray-800 text-white shadow-lg'>
 				<header className='container mx-auto flex flex-wrap flex-row items-center justify-between'>
+					<img
+						src={(process.PUBLIC_URL, "xenos.png")}
+						alt='Covid Tracker App'
+						className='w-10'
+					/>
 					<Link
 						to='/'
-						className='flex order-first lg:order-none lg:w-1/5 text-xl font-bold title-font items-center lg:items-center lg:justify-center'>
+						className='flex lg:-ml-5 xl:-ml-5 lg:w-1/5 text-xl font-bold title-font items-center lg:items-center lg:justify-center'>
 						Covid Data Tracker
 					</Link>
 					<nav className='lg:flex hidden flex-wrap items-center text-base md:ml-auto lg:space-y-0 space-y-6 lg:space-x-12 space-x-0'>
